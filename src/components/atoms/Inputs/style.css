@@ -1,0 +1,10 @@
+.header-input {
+    font-size: 1rem;
+    padding: 5%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--color-Secundary);
+    outline: none;
+    caret-color: var(--color-Secundary);
+    color: black;
+}

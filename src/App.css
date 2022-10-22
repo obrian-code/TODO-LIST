@@ -1,0 +1,32 @@
+:root {
+  --background: #e3e9ff;
+  --color-Primary: #9557e1;
+  --color-Secundary: #fff;
+  --color-text:#8d98b8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerCard {
+  position: relative;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 50%;
+}
